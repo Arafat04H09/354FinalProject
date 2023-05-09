@@ -1,5 +1,14 @@
 # 354FinalProject
 
+Original Source: https://github.com/MHDBST/PerSenT
+Link to our code: https://github.com/Arafat04H09/354FinalProject
+
+From the original source link provided above, we used the Train.CSV file for the input for our models. It was an extremely extensive file without thousands upon thousands of inputs.
+
+The implementation for the models was done with online resources such as the HuggingFace website. We made API requests with an API key for each of the three different models. Implementation may not be 100% correct. Due to rate limiting and limited time, we decided against using the entire Train.csv file, rather only using an extremely small subset of it. 
+
+If this file is opened on Google Colab, there is no need to worry about system requirements. 
+
 Running the code is a simple endeavor. Download the notebook. Upload it to either Google Colab or VSCode, although Google Colab is much easier to use.
 From there, you may notice that the first few boxes deal with importing libraries and determining the number of rows of the Train CSV you would like to use.
 We set the default to be 25, but if need be, this amount can be changed to a much larger number depending on the range of which the user wants the models to run on. 
